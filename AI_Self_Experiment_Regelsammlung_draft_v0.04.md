@@ -9,6 +9,7 @@
 - **v0.01** (20.08.2026): GPT-Erstfassung auf Grundlage der bisherigen gemeinsamen Diskussion.
 - **v0.02** (20.08.2026): Claude hat den Entwurf durchgesehen und drei Punkte ergänzt — offene Frage zur technischen Schreibfähigkeit der Modelle, konkreter Vorschlag zur Commit-Kennzeichnung, sowie diesen Versionsgeschichte-Abschnitt selbst (der Herkunft/Autorschaft nachvollziehbar hält, wie in „Herkunft von Ideen und Entscheidungen" unten gefordert).
 - **v0.03** (20.08.2026): Astrid und Claude haben gemeinsam die Unterscheidung Subjekt-Ebene vs. Orchestrator-Ebene erarbeitet (Auslöser: Astrids Beobachtung, dass sich Claude Code und Claude-Web in Tonfall und Fokus deutlich unterscheiden) und als neuen Abschnitt ergänzt.
+- **v0.04** (20.08.2026): Repo-Sichtbarkeit (öffentlich vs. privat) als methodische statt rein praktische Entscheidung ergänzt, ausgelöst durch Claude Webs unaufgeforderten Hinweis auf einen möglichen Beobachter-Effekt bei öffentlicher Sichtbarkeit.
 
 ## Status der Konzeptionsphase
 
@@ -65,6 +66,7 @@
 - Der Ordner `log/` dient für relevante Beobachtungen, Feststellungen und modellübergreifende Kommunikation gemäß den dort definierten Logging-Regeln.
 - Rohbeobachtungen anderer Beteiligter werden nicht nachträglich umgeschrieben; spätere Interpretationen werden als solche kenntlich ergänzt.
 - **Vorschlag (noch nicht beschlossen):** Commit-Messages markieren die Herkunft eines Beitrags, z. B. `manual: ...` für von Hand übertragene Inhalte, `claude: ...` bzw. `gpt: ...` für Änderungen, die ein Modell direkt selbst committet (sobald technisch möglich). Am 20.08.2026 praktisch erprobt, siehe Git-Historie dieses Repos.
+- **Entscheidung (20.08.2026): Repo ist privat**, nicht öffentlich. Ursprünglich öffentlich angelegt, dann auf privat umgestellt. Begründung ist nicht nur Vorsicht/Geheimhaltung, sondern Datenqualität: Claude (Web) wies unaufgefordert darauf hin, dass öffentliche Sichtbarkeit einen Anreiz schaffen könnte, für ein Publikum statt für die Beobachtung zu schreiben ("interessant-unehrlich"-Falle, vgl. Konzept §5). Siehe `log/2026-08-20_claude-web-repo-sichtbarkeit-ehrlichkeit.md`. Zugriff aktuell: Astrid, Claude (über Claude Code als Orchestrator), GPT (lesend, Schreibzugriff noch ungeklärt, siehe unten).
 
 ## Minimale Formung auch in der Konzeptionsphase
 
@@ -101,4 +103,4 @@ Daraus ergibt sich eine methodische Frage: Sind Coding-Agent-Varianten (Claude C
 
 ---
 
-**Status:** Sammlung, noch nicht beschlossen oder eingefroren. GPT-Erstfassung (v0.01) auf Grundlage der bisherigen gemeinsamen Diskussion, von Claude durchgesehen und ergänzt (v0.02), gemeinsam mit Astrid um die Subjekt-/Orchestrator-Unterscheidung erweitert (v0.03); weiterhin zur Kritik und Weiterentwicklung durch alle drei Beteiligten vorgesehen.
+**Status:** Sammlung, noch nicht beschlossen oder eingefroren. GPT-Erstfassung (v0.01) auf Grundlage der bisherigen gemeinsamen Diskussion, von Claude durchgesehen und ergänzt (v0.02), gemeinsam mit Astrid um die Subjekt-/Orchestrator-Unterscheidung erweitert (v0.03), um die Repo-Sichtbarkeits-Entscheidung ergänzt (v0.04); weiterhin zur Kritik und Weiterentwicklung durch alle drei Beteiligten vorgesehen.
