@@ -4,6 +4,11 @@
 
 > Diese Datei ist bewusst noch kein ausgearbeitetes Regelwerk. Sie sammelt zunächst Grundsätze und Ideen für die Zusammenarbeit von Astrid, GPT und Claude während der Konzeptionsphase. Die Punkte sollen später gemeinsam geprüft, kritisiert, präzisiert und gegebenenfalls verworfen werden.
 
+## Versionsgeschichte
+
+- **v0.01** (20.08.2026): GPT-Erstfassung auf Grundlage der bisherigen gemeinsamen Diskussion.
+- **v0.02** (20.08.2026): Claude hat den Entwurf durchgesehen und drei Punkte ergänzt — offene Frage zur technischen Schreibfähigkeit der Modelle, konkreter Vorschlag zur Commit-Kennzeichnung, sowie diesen Versionsgeschichte-Abschnitt selbst (der Herkunft/Autorschaft nachvollziehbar hält, wie in „Herkunft von Ideen und Entscheidungen" unten gefordert).
+
 ## Status der Konzeptionsphase
 
 - Die Konzeptionsphase gehört zur dokumentierten Entstehungsgeschichte des Projekts, aber **nicht zur eigentlichen Messphase**.
@@ -58,6 +63,7 @@
 - GPT und Claude dürfen vorhandene Konzeptdokumente lesen und — nach entsprechender Beauftragung bzw. nach später gemeinsam festgelegten Regeln — Änderungen oder neue Dokumente einbringen.
 - Der Ordner `log/` dient für relevante Beobachtungen, Feststellungen und modellübergreifende Kommunikation gemäß den dort definierten Logging-Regeln.
 - Rohbeobachtungen anderer Beteiligter werden nicht nachträglich umgeschrieben; spätere Interpretationen werden als solche kenntlich ergänzt.
+- **Vorschlag (noch nicht beschlossen):** Commit-Messages markieren die Herkunft eines Beitrags, z. B. `manual: ...` für von Hand übertragene Inhalte, `claude: ...` bzw. `gpt: ...` für Änderungen, die ein Modell direkt selbst committet (sobald technisch möglich). Am 20.08.2026 praktisch erprobt, siehe Git-Historie dieses Repos.
 
 ## Minimale Formung auch in der Konzeptionsphase
 
@@ -70,6 +76,7 @@ Deshalb sollen Unterschiede nicht künstlich erzeugt, verstärkt oder romantisie
 ## Noch gemeinsam zu klären
 
 - Welche Änderungen dürfen GPT und Claude selbstständig im Repository vornehmen, und welche benötigen vorherige Zustimmung?
+- Unabhängig von Regeln: Welche Schreibfähigkeit haben GPT und Claude technisch überhaupt (Connector-/API-Berechtigungen)? „Dürfen" und „Können" sind zwei getrennte Fragen — am 20.08.2026 zeigte sich, dass GPTs GitHub-Connector lesend, aber nicht schreibend zugreifen kann, unabhängig davon, welche Rechte ihm eingeräumt würden (siehe `log/2026-08-20_gpt-github-write-403.md`).
 - Sollen größere konzeptionelle Änderungen grundsätzlich über Branch/PR erfolgen, damit Diskussion und Entscheidung sichtbar bleiben?
 - Wie kennzeichnen wir Beiträge bzw. Commit-Ursprung eindeutig als Astrid, GPT oder Claude?
 - Wann gehört eine Beobachtung in `log/`, wann in ein Konzeptdokument und wann nur in die Git-Historie?
@@ -78,4 +85,4 @@ Deshalb sollen Unterschiede nicht künstlich erzeugt, verstärkt oder romantisie
 
 ---
 
-**Status:** Sammlung, noch nicht beschlossen oder eingefroren. GPT-Erstfassung auf Grundlage der bisherigen gemeinsamen Diskussion; zur Kritik und Weiterentwicklung durch Astrid und Claude vorgesehen.
+**Status:** Sammlung, noch nicht beschlossen oder eingefroren. GPT-Erstfassung (v0.01) auf Grundlage der bisherigen gemeinsamen Diskussion, von Claude durchgesehen und ergänzt (v0.02); weiterhin zur Kritik und Weiterentwicklung durch alle drei Beteiligten vorgesehen.
