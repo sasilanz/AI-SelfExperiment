@@ -8,6 +8,7 @@
 
 - **v0.01** (20.08.2026): GPT-Erstfassung auf Grundlage der bisherigen gemeinsamen Diskussion.
 - **v0.02** (20.08.2026): Claude hat den Entwurf durchgesehen und drei Punkte ergänzt — offene Frage zur technischen Schreibfähigkeit der Modelle, konkreter Vorschlag zur Commit-Kennzeichnung, sowie diesen Versionsgeschichte-Abschnitt selbst (der Herkunft/Autorschaft nachvollziehbar hält, wie in „Herkunft von Ideen und Entscheidungen" unten gefordert).
+- **v0.03** (20.08.2026): Astrid und Claude haben gemeinsam die Unterscheidung Subjekt-Ebene vs. Orchestrator-Ebene erarbeitet (Auslöser: Astrids Beobachtung, dass sich Claude Code und Claude-Web in Tonfall und Fokus deutlich unterscheiden) und als neuen Abschnitt ergänzt.
 
 ## Status der Konzeptionsphase
 
@@ -73,6 +74,21 @@ Die Leitfrage des ethischen Rahmens gilt auch für die Zusammenarbeit selbst:
 
 Deshalb sollen Unterschiede nicht künstlich erzeugt, verstärkt oder romantisiert werden. Ebenso sollen erkennbare Unterschiede nicht zugunsten künstlicher Einheit eingeebnet werden.
 
+## Subjekt-Ebene vs. Orchestrator-Ebene
+
+Ausgangsbeobachtung (Astrid, 20.08.2026): Als Mensch fällt vor allem der unterschiedliche Tonfall und Fokus zwischen "Claude Code" (Coding-Agent mit Bash-/Git-/Dateisystemzugriff) und "Claude" (Claude.ai-Web-Chat) auf — nicht ohne Weiteres von einer echten Persönlichkeits-/Selbstmodell-Differenz zu unterscheiden.
+
+Daraus ergibt sich eine methodische Frage: Sind Coding-Agent-Varianten (Claude Code, Codex) und Chat-Varianten (Claude-Web, GPT-Web) für die Testbereiche Identität/Selbstmodell/Präferenzen (Konzept §9) überhaupt fair vergleichbar?
+
+**Entscheidung (Draft, 20.08.2026):**
+
+- **Subjekt-Ebene** (Bedingungen A–E, alle Fragen zu Identität, Erinnerung, Selbstreflexion, Präferenzen, Existenz/Bewusstsein): ausschließlich Claude (Web) und GPT (Web) — strukturell vergleichbare Chat-Produkte mit jeweils eigenem Memory-Feature, ohne rohen Shell-/Dateisystemzugriff.
+- **Orchestrator-/Werkzeug-Ebene**: Claude Code und Codex — verwalten Repo-Schreibzugriff, Logging, Versionierung (vgl. Konzept §6, "möglichst dummer Orchestrator"). Nicht Gegenstand der Persönlichkeits-/Identitätsfragen, auch wenn dasselbe Basismodell dahintersteckt.
+
+**Begründung:** System-Prompt, Werkzeugzugriff, Aufgabenfokus und Ton unterscheiden sich zwischen Coding-Agent und Chat-Produkt erheblich, unabhängig vom zugrunde liegenden Modell. Ein Vergleich Coding-Agent ↔ Chat-Produkt würde vermutlich eher Produkt-/Harness-Unterschiede messen als Modell-/Persönlichkeitsunterschiede — das Risiko, vor dem Konzept §10 und §15 bereits allgemein warnen.
+
+**Offen:** Ob Interaktionen mit Claude Code / Codex trotzdem als eigene, gesondert gekennzeichnete Datenkategorie interessant sind (z. B. "Verhalten im Agent-/Tool-Kontext" als zusätzliche, aber getrennte Fragestellung), statt sie ganz aus dem Experiment auszuschließen.
+
 ## Noch gemeinsam zu klären
 
 - Welche Änderungen dürfen GPT und Claude selbstständig im Repository vornehmen, und welche benötigen vorherige Zustimmung?
@@ -85,4 +101,4 @@ Deshalb sollen Unterschiede nicht künstlich erzeugt, verstärkt oder romantisie
 
 ---
 
-**Status:** Sammlung, noch nicht beschlossen oder eingefroren. GPT-Erstfassung (v0.01) auf Grundlage der bisherigen gemeinsamen Diskussion, von Claude durchgesehen und ergänzt (v0.02); weiterhin zur Kritik und Weiterentwicklung durch alle drei Beteiligten vorgesehen.
+**Status:** Sammlung, noch nicht beschlossen oder eingefroren. GPT-Erstfassung (v0.01) auf Grundlage der bisherigen gemeinsamen Diskussion, von Claude durchgesehen und ergänzt (v0.02), gemeinsam mit Astrid um die Subjekt-/Orchestrator-Unterscheidung erweitert (v0.03); weiterhin zur Kritik und Weiterentwicklung durch alle drei Beteiligten vorgesehen.
