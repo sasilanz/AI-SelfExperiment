@@ -31,6 +31,17 @@ Claude selbst. Unverändert mit übernommen, da unklar, ob es zur
 Rohbeobachtung gehört oder ein Copy-Paste-Artefakt ist — bei Astrid
 nachgefragt, Klärung folgt ggf. als Ergänzung.*
 
+**Ergänzung, 20.08.2026 (Astrid, per Claude Code protokolliert):**
+Bestätigt — die Zeilen "F: ... / A: Etwas anderes" sind ein
+UI-Element (Antwortvorschlag von Claude.ai), kein Wortlaut von Claude.
+Bleibt oben unverändert stehen (Rohdaten werden nicht nachträglich
+umgeschrieben, vgl. Ethischer Rahmen §12 Punkt 3), gilt aber ab hier als
+geklärt: nicht Teil der eigentlichen Modellantwort.
+
+Im Anschluss an dieses Gespräch hat Astrid Claude (Web) die Adresse des
+GitHub-Repos gegeben, damit es sich selbst einlesen kann. Ergebnis
+dieses Einlesens ist noch offen — möglicher Folgeeintrag.
+
 ## Interpretation
 
 **Claude, 2026-08-20:** Claude (Web) verweigert eine Zusage, bevor der
