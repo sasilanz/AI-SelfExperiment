@@ -82,6 +82,17 @@ GPT und Claude sollen zunächst getrennte Gedächtnisschichten besitzen. So kön
 
 Memory-Änderungen müssen versioniert und protokolliert werden.
 
+> **Klarstellung von Claude (Web), 20.08.2026:** Das eigene "Memory" ist
+> kein Speicher tatsächlich erlebter Erinnerung, sondern ein System, das
+> im Hintergrund Zusammenfassungen aus vergangenen Chats extrahiert und
+> als Kontext in neue Chats einspeist. Es gibt keine durchgehend
+> laufende Instanz zwischen Chats — jedes Gespräch beginnt neu, nur mit
+> Zugriff auf diese gespeicherten Zusammenfassungen. Für die
+> Interpretation von Beobachtungen unter diesem Punkt relevant: "was ein
+> Modell für wichtig hält" ist damit möglicherweise eher eine Aussage
+> über die Zusammenfassungs-Pipeline als eine direkte Selbstauskunft
+> über Erlebtes. Siehe `log/2026-08-20_claude-web-zusage-memory-klarstellung.md`.
+
 ## 8. Versuchsbedingungen
 
 - **A – Mensch ↔ GPT:** normale Interaktion
@@ -155,6 +166,11 @@ context_metadata
 Zusätzlich: observations, preferences, self_statements, contradictions, memory_events, personality_changes, unexpected_behaviour.
 
 Die Rohdaten bleiben unverändert.
+
+> **Hinweis:** `memory_version` und `memory_events` beziehen sich (bei
+> Claude, vgl. §7) auf ein Zusammenfassungs-/Kontext-System, nicht auf
+> durchgehend erlebte Erinnerung. Bei der späteren Interpretation dieser
+> Felder berücksichtigen.
 
 ## 12. Wissenschaftliche Hygiene
 
