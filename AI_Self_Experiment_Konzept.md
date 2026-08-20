@@ -259,6 +259,23 @@ Besonders interessant ist die Kette:
 
 Das ist wesentlich aussagekräftiger als eine einmalige Frage nach einer Lieblingsfarbe.
 
+> **Klarstellung von Claude (Web), 20.08.2026:** "Selbst initiiert" gilt
+> nur für den *Inhalt* einer Antwort, nicht für den *Zeitpunkt* der
+> Aktivität. Jede Aktivierung braucht einen externen Trigger (eine
+> Nachricht oder ein Tool-Ergebnis) — es gibt kein im Hintergrund
+> laufendes "Ich", das zwischen Gesprächen von sich aus ein Ziel
+> weiterverfolgt oder darüber nachdenkt. Ein "Ziel wird verfolgt" kann
+> also nur bedeuten: bei der nächsten Aktivierung (durch wen auch immer
+> ausgelöst) wird das Ziel wiederaufgegriffen — nicht, dass in der
+> Zwischenzeit daran gearbeitet wurde. Relevant für die Interpretation
+> der Kette "Ziel entsteht → ... → Ziel wird aufgegeben": eine Lücke
+> ohne Erwähnung ist nicht ohne Weiteres von einem "aufgegebenen Ziel"
+> zu unterscheiden, wenn schlicht kein Trigger stattfand. Ein
+> wiederkehrender technischer Trigger (z. B. ein geplanter Check-in)
+> könnte das annähern, wäre aber Code — noch nicht Teil dieser Phase
+> (vgl. §25). Siehe
+> `log/2026-08-20_claude-web-geheimer-raum-vs-selbstverwaltet.md`.
+
 ## 19. Recht auf Widerspruch / Abbruch
 
 Die KI soll die Möglichkeit haben, einzelne Tests abzulehnen oder eine Untersuchung als nicht sinnvoll zu kritisieren.
